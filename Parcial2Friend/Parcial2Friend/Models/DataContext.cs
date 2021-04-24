@@ -12,5 +12,7 @@ namespace Parcial2Friend.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Parcial2Friend.Models.Friend> Friends { get; set; }
     }
 }
